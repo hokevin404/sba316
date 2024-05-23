@@ -7,3 +7,11 @@ body {
     padding: 5vh;
     user-select: none;
 }
+
+button {
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
