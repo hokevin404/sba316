@@ -4,3 +4,9 @@ const gInput = document.getElementById("groceryInput");
 // console.log(gInput);
 const gBtn = document.getElementById("addGroceryBtn");
 // console.log(gBtn);
+ 
+gList.addEventListener("click", (evt) => {
+  evt.target.classList.toggle("strikethrough");
+  console.log('strikethrough');
+});
+
