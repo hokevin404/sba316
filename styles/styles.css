@@ -11,7 +11,7 @@ body {
 button {
     font-size: 20px;
     padding: 2vh 1vw;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 50px;
     cursor: pointer;
 }
@@ -26,6 +26,25 @@ input {
     padding: 2vh 1vw;
     border: 1px solid black;
     border-radius: 50px;
+    margin-right: 10px;
 }
 
+li {
+    cursor: pointer;
+    word-break: break-word;
+}
 
+.ul-container {
+    text-align: center;
+    width: 50vw;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 auto; */
+}
+
+#groceryList {
+    display: inline-block;
+    text-align: left;
+    width: 20vw;
+}
