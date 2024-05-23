@@ -10,3 +10,20 @@ gList.addEventListener("click", (evt) => {
   console.log('strikethrough');
 });
 
+function addGrocery() {
+  const newItem = gInput.value;
+
+    if (newItem === "") 
+    return;
+
+    if(gInput.validity.valid)
+    {
+        gList.appendChild(document.createElement("li")).textContent = newItem;
+        gInput.value = "";
+        gInput.focus();
+    }
+    else
+        return;
+}
+
+gBtn.addEventListener("click", addGrocery);
