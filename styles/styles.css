@@ -1,10 +1,14 @@
+:root {
+    --top-menu-bg: #940606;
+}
+
 body {
     background: #069494;
     color: #232323;
     line-height: 6vh;
     font-size: 20px;
     font-family: cursive;
-    padding: 5vh;
+    margin: 0;
     user-select: none;
 }
 
@@ -27,6 +31,7 @@ input {
     border: 1px solid black;
     border-radius: 50px;
     margin-right: 10px;
+    margin-top: 5vh;
 }
 
 li {
@@ -51,4 +56,10 @@ li {
     display: inline-block;
     text-align: left;
     width: 20vw;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
